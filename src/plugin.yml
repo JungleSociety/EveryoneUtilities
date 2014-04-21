@@ -1,0 +1,64 @@
+name: EveryoneUtilities
+author: [JungleSociety]
+main: me.junglesociety.everyoneutilities.Main
+version: 1.0.0
+softdepend: [Vault]
+
+commands:
+  everyoneutilities:
+    description: Please use /EveryoneUtilities help for help!
+  eu:
+    description: Please use /EveryoneUtilities help for help!
+permissions:
+  eu.help:
+    description: Everyone Utilities help command.
+  eu.setbalance:
+    description: Set everyones balance.
+  eu.setxp:
+    description: Set everyones xp level.
+  eu.sethealth:
+    description: set everyones health.
+  eu.takehealth:
+    description: Take health away.
+  eu.takeitems:
+    description: Take items away.
+  eu.takexp:
+    description: Take xp away.
+  eu.takemoney:
+    description: Take money away
+  eu.freeze:
+    description: Freeze players.
+  eu.runcommand:
+    description: Run commands.
+  eu.kill:
+    description: Kill all players.
+  eu.teleport:
+    description: Teleport all players
+  eu.givemoney:
+    description: Give money.
+  eu.givexp:
+    description: Give xp.
+  eu.heal:
+    description: Heal everyone.
+  eu.giveitems:
+    description: Give items.
+  eu.*:
+    description: Give all permissions. Recommended only for admins.
+    children:
+      eu.help: true
+      eu.setbalance: true
+      eu.setxp: true
+      eu.sethealth: true
+      eu.takehealth: true
+      eu.takeitems: true
+      eu.takexp: true
+      eu.takemoney: true
+      eu.freeze: true
+      eu.runcommand: true
+      eu.kill: true
+      eu.teleport: true
+      eu.givemoney: true
+      eu.givexp: true
+      eu.heal: true
+      eu.giveitems: true
+  
